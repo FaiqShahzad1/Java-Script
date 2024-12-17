@@ -1,5 +1,5 @@
-let ismarried = true;
-let isactive = false;
+// let ismarried = true;
+// let isactive = false;
 
 
 let userinputtempc = prompt("enter temperature in centigrade");
