@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1 class="table">Table</h1>
+    <div class="box">
+        <form onsubmit="table(); return false ">
+            <div class="input1">
+                <label class="text" for="number">
+                    Enter table number
+                </label>
+                <input class="background" type="number" id="number">
+            </div>
+            <div class=" input2">
+                <label class="text" for="number2">
+                    Enter number to multiply
+                </label>
+                <input class="background" type="number" id="number2">
+            </div>
+            <div class="button">
+                <button class="button1" type="submit">Submit</button>
+            </div>
+        </form>
 
+
+        <div class="flex result">
+            <p id="result"></p>
+        </div>
+    </div>
 
 
 
     <script src="script.mjs"></script>
 </body>
+
 </html>
